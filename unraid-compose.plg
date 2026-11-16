@@ -3,10 +3,10 @@
   <!ENTITY name       "unraid-compose">
   <!ENTITY title      "docker compose">
   <!ENTITY author     "dtomlinson">
-  <!ENTITY version    "2026.11.09">
-  <!ENTITY upstream   "5.7.0">
-  <!ENTITY package    "unraid-compose-5.7.0-x86_64-2026.11.09">
-  <!ENTITY sha256     "bebed52b2b1d8ab9d2df547d23f2e66c6ed76d9083fed2f4435884763d946f63">
+  <!ENTITY version    "2026.11.16">
+  <!ENTITY upstream   "5.7.1">
+  <!ENTITY package    "unraid-compose-5.7.1-x86_64-2026.11.16">
+  <!ENTITY sha256     "370c9e082e1cf88d3d7fba98a2a43b7ec51f9cc639bfacc112b0555acad4fb44">
   <!ENTITY gitURL     "https://github.com/dtomlinson91/&name;">
   <!ENTITY pluginURL  "&gitURL;/raw/main/&name;.plg">
   <!ENTITY packageURL "&gitURL;/releases/download/&version;/&package;.txz">
@@ -15,6 +15,9 @@
 <PLUGIN name="&name;" author="&author;" version="&version;" pluginURL="&pluginURL;" support="&gitURL;" min="6.8.3">
 
 <CHANGES>
+### 2026.11.16
+- docker compose 5.7.1
+
 ### 2026.11.09
 - docker compose 5.7.0
 
